@@ -1,0 +1,28 @@
+ public class UserManager {
+    private UserRepository userRepository;
+
+    public UserManager(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public void addUser(User user) {
+        userRepository.save(user);
+    }
+}
+
+ public interface UserRepository {
+    void save(User user);
+}
+
+ public class UserRepositoryImpl implements UserRepository {
+    @Override
+    public void save(User user) {
+        // Code to save user to database
+    }
+}
+
+ public class User {
+    private String username;
+    private String email;
+
+ }
