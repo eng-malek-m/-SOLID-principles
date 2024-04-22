@@ -1,0 +1,29 @@
+// Interface segregating functionalities for printing and scanning
+public interface MultiFunctionDevice {
+    void print();
+
+    void scan();
+}
+
+// Printer implementation
+public class Printer implements MultiFunctionDevice {
+    @Override
+    public void print() {
+     }
+
+    @Override
+    public void scan() {
+     }
+}
+
+// Scanner implementation
+public class Scanner implements MultiFunctionDevice {
+    @Override
+    public void print() {
+     }
+
+    @Override
+    public void scan() {
+        // Code for scanning
+    }
+}
