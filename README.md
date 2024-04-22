@@ -4,7 +4,7 @@ This repository is dedicated to exploring and understanding the SOLID principles
 The SOLID Principles:
 
 1) Single Responsibility Principle (SRP): A class should have only one reason to change, meaning it should have only one responsibility or concern.
-2) 
+   
 2)Open/Closed Principle (OCP): Software entities should be open for extension but closed for modification. This allows for adding new functionality without altering existing code.
 
 3)Liskov Substitution Principle (LSP): Objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
